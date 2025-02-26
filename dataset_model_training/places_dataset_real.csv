@@ -1,0 +1,121 @@
+place_id,name,rating,types,latitude,longitude,description,country,created
+USA001,Statue of Liberty,4.8,Historical Landmark,40.6892,-74.0445,A famous historical landmark in USA.,USA,2025-02-26T20:52:14.224817
+USA002,Grand Canyon,4.7,Natural Wonder,36.1069,-112.1129,A famous natural wonder in USA.,USA,2025-02-26T20:52:14.224833
+USA003,Yellowstone National Park,4.2,National Park,44.428,-110.5885,A famous national park in USA.,USA,2025-02-26T20:52:14.224840
+USA004,Disneyland,3.5,Theme Park,33.8121,-117.919,A famous theme park in USA.,USA,2025-02-26T20:52:14.224846
+USA005,Times Square,4.2,Urban Attraction,40.758,-73.9855,A famous urban attraction in USA.,USA,2025-02-26T20:52:14.224851
+USA006,Golden Gate Bridge,3.5,Bridge,37.8199,-122.4783,A famous bridge in USA.,USA,2025-02-26T20:52:14.224855
+USA007,Mount Rushmore,4,Historical Monument,43.8791,-103.4591,A famous historical monument in USA.,USA,2025-02-26T20:52:14.224859
+USA008,Las Vegas Strip,5,Entertainment,36.1147,-115.1728,A famous entertainment in USA.,USA,2025-02-26T20:52:14.224865
+USA009,Niagara Falls,4.6,Waterfall,43.0962,-79.0377,A famous waterfall in USA.,USA,2025-02-26T20:52:14.224869
+USA010,Central Park,4.4,Urban Park,40.7851,-73.9683,A famous urban park in USA.,USA,2025-02-26T20:52:14.224873
+FRA001,Eiffel Tower,3.5,Historical Landmark,48.8584,2.2945,A famous historical landmark in France.,France,2025-02-26T20:52:14.224877
+FRA002,Louvre Museum,4.8,Museum,48.8606,2.3376,A famous museum in France.,France,2025-02-26T20:52:14.224880
+FRA003,Notre-Dame Cathedral,4.3,Historical Landmark,48.853,2.3499,A famous historical landmark in France.,France,2025-02-26T20:52:14.224883
+FRA004,Palace of Versailles,3.6,Historical Landmark,48.8049,2.1204,A famous historical landmark in France.,France,2025-02-26T20:52:14.224900
+FRA005,Mont Saint-Michel,4.1,Historical Landmark,48.6361,-1.5115,A famous historical landmark in France.,France,2025-02-26T20:52:14.224904
+FRA006,Disneyland Paris,4.4,Theme Park,48.8674,2.7833,A famous theme park in France.,France,2025-02-26T20:52:14.224907
+FRA007,Champs-Ã‰lysÃ©es,3.7,Urban Attraction,48.8698,2.3075,A famous urban attraction in France.,France,2025-02-26T20:52:14.224910
+FRA008,Seine River Cruise,4.2,Entertainment,48.8566,2.3522,A famous entertainment in France.,France,2025-02-26T20:52:14.224913
+FRA009,SacrÃ©-CÅ“ur,3.6,Historical Landmark,48.8867,2.3431,A famous historical landmark in France.,France,2025-02-26T20:52:14.224916
+FRA010,Provence Lavender Fields,4.5,Natural Wonder,43.8345,5.0015,A famous natural wonder in France.,France,2025-02-26T20:52:14.224919
+JAP001,Mount Fuji,4.6,Natural Wonder,35.3606,138.7274,A famous natural wonder in Japan.,Japan,2025-02-26T20:52:14.224923
+JAP002,Tokyo Tower,4.7,Urban Attraction,35.6586,139.7454,A famous urban attraction in Japan.,Japan,2025-02-26T20:52:14.224926
+JAP003,Fushimi Inari Shrine,4.8,Historical Landmark,34.9671,135.7727,A famous historical landmark in Japan.,Japan,2025-02-26T20:52:14.224929
+JAP004,Arashiyama Bamboo Forest,4.3,Natural Wonder,35.0094,135.6675,A famous natural wonder in Japan.,Japan,2025-02-26T20:52:14.224932
+JAP005,Himeji Castle,4.2,Historical Landmark,34.8394,134.6939,A famous historical landmark in Japan.,Japan,2025-02-26T20:52:14.224935
+JAP006,Shibuya Crossing,4.7,Urban Attraction,35.6595,139.7005,A famous urban attraction in Japan.,Japan,2025-02-26T20:52:14.224938
+JAP007,Dotonbori,4,Entertainment,34.6685,135.5032,A famous entertainment in Japan.,Japan,2025-02-26T20:52:14.224941
+JAP008,Hiroshima Peace Memorial,4.3,Historical Landmark,34.3955,132.4536,A famous historical landmark in Japan.,Japan,2025-02-26T20:52:14.224944
+JAP009,Nara Deer Park,3.8,National Park,34.6851,135.843,A famous national park in Japan.,Japan,2025-02-26T20:52:14.224947
+JAP010,Ghibli Museum,4.2,Museum,35.6962,139.5703,A famous museum in Japan.,Japan,2025-02-26T20:52:14.224950
+ITA001,Colosseum,3.6,Historical Landmark,41.8902,12.4922,A famous historical landmark in Italy.,Italy,2025-02-26T20:52:14.224954
+ITA002,Leaning Tower of Pisa,3.9,Historical Landmark,43.723,10.3966,A famous historical landmark in Italy.,Italy,2025-02-26T20:52:14.224957
+ITA003,Venice Canals,5,Urban Attraction,45.4408,12.3155,A famous urban attraction in Italy.,Italy,2025-02-26T20:52:14.224960
+ITA004,Amalfi Coast,4.4,Natural Wonder,40.634,14.6024,A famous natural wonder in Italy.,Italy,2025-02-26T20:52:14.224964
+ITA005,Vatican Museums,4.6,Museum,41.9065,12.4536,A famous museum in Italy.,Italy,2025-02-26T20:52:14.224967
+ITA006,Cinque Terre,4.1,Natural Wonder,44.1468,9.6536,A famous natural wonder in Italy.,Italy,2025-02-26T20:52:14.224970
+ITA007,Trevi Fountain,4.6,Historical Landmark,41.9009,12.4833,A famous historical landmark in Italy.,Italy,2025-02-26T20:52:14.224973
+ITA008,Pompeii,3.7,Historical Landmark,40.7494,14.5006,A famous historical landmark in Italy.,Italy,2025-02-26T20:52:14.224976
+ITA009,Milan Cathedral,4.4,Historical Landmark,45.4642,9.1916,A famous historical landmark in Italy.,Italy,2025-02-26T20:52:14.224979
+ITA010,Sistine Chapel,4.3,Historical Landmark,41.9029,12.4545,A famous historical landmark in Italy.,Italy,2025-02-26T20:52:14.224982
+SPA001,Sagrada Familia,4.6,Historical Landmark,41.4036,2.1744,A famous historical landmark in Spain.,Spain,2025-02-26T20:52:14.224985
+SPA002,Park GÃ¼ell,4.7,Urban Park,41.4145,2.1527,A famous urban park in Spain.,Spain,2025-02-26T20:52:14.224989
+SPA003,Alhambra,4.1,Historical Landmark,37.1761,-3.5881,A famous historical landmark in Spain.,Spain,2025-02-26T20:52:14.224991
+SPA004,Plaza Mayor,4.3,Urban Attraction,40.4154,-3.7074,A famous urban attraction in Spain.,Spain,2025-02-26T20:52:14.224994
+SPA005,La Rambla,4,Urban Attraction,41.3818,2.1715,A famous urban attraction in Spain.,Spain,2025-02-26T20:52:14.224997
+SPA006,Seville Cathedral,3.7,Historical Landmark,37.3851,-5.9903,A famous historical landmark in Spain.,Spain,2025-02-26T20:52:14.225000
+SPA007,Guggenheim Museum,3.6,Museum,43.2686,-2.934,A famous museum in Spain.,Spain,2025-02-26T20:52:14.225003
+SPA008,Camino de Santiago,3.9,Natural Wonder,42.8782,-8.5448,A famous natural wonder in Spain.,Spain,2025-02-26T20:52:14.225007
+SPA009,Costa del Sol,3.6,Beach,36.5099,-4.8862,A famous beach in Spain.,Spain,2025-02-26T20:52:14.225010
+SPA010,Ibiza,3.7,Island,38.9067,1.4206,A famous island in Spain.,Spain,2025-02-26T20:52:14.225013
+UK001,Big Ben,3.7,Historical Landmark,51.5007,-0.1246,A famous historical landmark in UK.,UK,2025-02-26T20:52:14.225016
+UK002,Tower of London,4.6,Historical Landmark,51.5081,-0.0759,A famous historical landmark in UK.,UK,2025-02-26T20:52:14.225020
+UK003,Stonehenge,4.8,Historical Landmark,51.1789,-1.8262,A famous historical landmark in UK.,UK,2025-02-26T20:52:14.225023
+UK004,Buckingham Palace,4.6,Historical Landmark,51.5014,-0.1419,A famous historical landmark in UK.,UK,2025-02-26T20:52:14.225026
+UK005,Edinburgh Castle,4.8,Historical Landmark,55.9486,-3.1999,A famous historical landmark in UK.,UK,2025-02-26T20:52:14.225029
+UK006,Lake District,3.6,National Park,54.4609,-3.0886,A famous national park in UK.,UK,2025-02-26T20:52:14.225032
+UK007,Windsor Castle,3.9,Historical Landmark,51.4839,-0.6044,A famous historical landmark in UK.,UK,2025-02-26T20:52:14.225035
+UK008,Hyde Park,3.9,Urban Park,51.5073,-0.1657,A famous urban park in UK.,UK,2025-02-26T20:52:14.225038
+UK009,Oxford University,4.5,Educational Institution,51.7548,-1.2544,A famous educational institution in UK.,UK,2025-02-26T20:52:14.225041
+UK010,Loch Ness,3.9,Natural Wonder,57.3229,-4.4244,A famous natural wonder in UK.,UK,2025-02-26T20:52:14.225044
+AUS001,Sydney Opera House,3.8,Historical Landmark,-33.8568,151.2153,A famous historical landmark in Australia.,Australia,2025-02-26T20:52:14.225048
+AUS002,Great Barrier Reef,3.6,Natural Wonder,-18.2871,147.6992,A famous natural wonder in Australia.,Australia,2025-02-26T20:52:14.225051
+AUS003,Uluru,4.6,Natural Wonder,-25.3444,131.0369,A famous natural wonder in Australia.,Australia,2025-02-26T20:52:14.225054
+AUS004,Bondi Beach,3.6,Beach,-33.8915,151.2767,A famous beach in Australia.,Australia,2025-02-26T20:52:14.225057
+AUS005,Great Ocean Road,4.8,Scenic Drive,-38.6688,143.3935,A famous scenic drive in Australia.,Australia,2025-02-26T20:52:14.225060
+AUS006,Kangaroo Island,5,Island,-35.8102,137.2441,A famous island in Australia.,Australia,2025-02-26T20:52:14.225063
+AUS007,Daintree Rainforest,4.5,National Park,-16.175,145.4185,A famous national park in Australia.,Australia,2025-02-26T20:52:14.225066
+AUS008,Blue Mountains,4.1,Natural Wonder,-33.7106,150.3114,A famous natural wonder in Australia.,Australia,2025-02-26T20:52:14.225069
+AUS009,Fraser Island,4.9,Island,-25.239,153.1325,A famous island in Australia.,Australia,2025-02-26T20:52:14.225072
+AUS010,Melbourne Cricket Ground,4.8,Sports Venue,-37.8199,144.9834,A famous sports venue in Australia.,Australia,2025-02-26T20:52:14.225075
+GER001,Brandenburg Gate,4.8,Historical Landmark,52.5163,13.3777,A famous historical landmark in Germany.,Germany,2025-02-26T20:52:14.225078
+GER002,Neuschwanstein Castle,4.5,Historical Landmark,47.5576,10.7498,A famous historical landmark in Germany.,Germany,2025-02-26T20:52:14.225082
+GER003,Berlin Wall Memorial,3.8,Historical Landmark,52.5351,13.3904,A famous historical landmark in Germany.,Germany,2025-02-26T20:52:14.225085
+GER004,Cologne Cathedral,3.6,Historical Landmark,50.9413,6.9583,A famous historical landmark in Germany.,Germany,2025-02-26T20:52:14.225088
+GER005,Black Forest,5,Natural Wonder,48.4559,8.0649,A famous natural wonder in Germany.,Germany,2025-02-26T20:52:14.225091
+GER006,Heidelberg Castle,3.7,Historical Landmark,49.4104,8.7158,A famous historical landmark in Germany.,Germany,2025-02-26T20:52:14.225094
+GER007,Miniatur Wunderland,4,Museum,53.545,9.988,A famous museum in Germany.,Germany,2025-02-26T20:52:14.225097
+GER008,Zugspitze,5,Mountain,47.421,10.9856,A famous mountain in Germany.,Germany,2025-02-26T20:52:14.225101
+GER009,Sanssouci Palace,4.8,Historical Landmark,52.4046,13.0384,A famous historical landmark in Germany.,Germany,2025-02-26T20:52:14.225104
+GER010,Oktoberfest,4.3,Festival Venue,48.1316,11.549,A famous festival venue in Germany.,Germany,2025-02-26T20:52:14.225108
+CAN001,Niagara Falls,3.9,Waterfall,43.0896,-79.0849,A famous waterfall in Canada.,Canada,2025-02-26T20:52:14.225111
+CAN002,Banff National Park,4.3,National Park,51.4968,-115.9281,A famous national park in Canada.,Canada,2025-02-26T20:52:14.225114
+CAN003,CN Tower,4.9,Urban Attraction,43.6426,-79.3871,A famous urban attraction in Canada.,Canada,2025-02-26T20:52:14.225117
+CAN004,Old Quebec,4.2,Historical Landmark,46.8139,-71.2082,A famous historical landmark in Canada.,Canada,2025-02-26T20:52:14.225120
+CAN005,Stanley Park,4.3,Urban Park,49.3043,-123.1443,A famous urban park in Canada.,Canada,2025-02-26T20:52:14.225123
+CAN006,Moraine Lake,3.8,Natural Wonder,51.3217,-116.186,A famous natural wonder in Canada.,Canada,2025-02-26T20:52:14.225126
+CAN007,Gros Morne National Park,4.6,National Park,49.6496,-57.7559,A famous national park in Canada.,Canada,2025-02-26T20:52:14.225129
+CAN008,Peggyâ€™s Cove,4.8,Coastal Attraction,44.4913,-63.9155,A famous coastal attraction in Canada.,Canada,2025-02-26T20:52:14.225133
+CAN009,Royal Ontario Museum,4.2,Museum,43.6677,-79.3948,A famous museum in Canada.,Canada,2025-02-26T20:52:14.225136
+CAN010,Whistler Blackcomb,4.5,Ski Resort,50.115,-122.9486,A famous ski resort in Canada.,Canada,2025-02-26T20:52:14.225138
+CHI001,Great Wall of China,4.7,Historical Landmark,40.4319,116.5704,A famous historical landmark in China.,China,2025-02-26T20:52:14.225142
+CHI002,Forbidden City,4.7,Historical Landmark,39.9163,116.3972,A famous historical landmark in China.,China,2025-02-26T20:52:14.225145
+CHI003,Terracotta Army,3.7,Historical Landmark,34.3853,109.2788,A famous historical landmark in China.,China,2025-02-26T20:52:14.225148
+CHI004,Zhangjiajie National Forest Park,4.2,National Park,29.117,110.4784,A famous national park in China.,China,2025-02-26T20:52:14.225151
+CHI005,Potala Palace,4.1,Historical Landmark,29.655,91.1168,A famous historical landmark in China.,China,2025-02-26T20:52:14.225154
+CHI006,Li River,4.7,Natural Wonder,24.7006,110.4999,A famous natural wonder in China.,China,2025-02-26T20:52:14.225160
+CHI007,West Lake,4.9,Scenic Lake,30.253,120.1503,A famous scenic lake in China.,China,2025-02-26T20:52:14.225165
+CHI008,Yellow Mountain,3.9,Mountain,30.1319,118.1669,A famous mountain in China.,China,2025-02-26T20:52:14.225170
+CHI009,Chengdu Panda Base,3.8,Wildlife Park,30.6678,104.0415,A famous wildlife park in China.,China,2025-02-26T20:52:14.225189
+CHI010,Shanghai Bund,3.7,Urban Attraction,31.2381,121.4903,A famous urban attraction in China.,China,2025-02-26T20:52:14.225193
+BRA001,Christ the Redeemer,4.4,Historical Landmark,-22.9519,-43.2105,A famous historical landmark in Brazil.,Brazil,2025-02-26T20:52:14.225197
+BRA002,Sugarloaf Mountain,4.8,Natural Wonder,-22.951,-43.1648,A famous natural wonder in Brazil.,Brazil,2025-02-26T20:52:14.225200
+BRA003,Iguazu Falls,5,Waterfall,-25.6953,-54.4367,A famous waterfall in Brazil.,Brazil,2025-02-26T20:52:14.225203
+BRA004,Amazon Rainforest,4.2,Natural Wonder,-3.4653,-62.2159,A famous natural wonder in Brazil.,Brazil,2025-02-26T20:52:14.225206
+BRA005,Copacabana Beach,3.6,Beach,-22.9711,-43.1822,A famous beach in Brazil.,Brazil,2025-02-26T20:52:14.225209
+BRA006,Pelourinho,4.3,Historical Landmark,-12.9714,-38.5108,A famous historical landmark in Brazil.,Brazil,2025-02-26T20:52:14.225212
+BRA007,LenÃ§Ã³is Maranhenses,4.1,National Park,-2.4872,-43.1195,A famous national park in Brazil.,Brazil,2025-02-26T20:52:14.225215
+BRA008,Fernando de Noronha,4.2,Island,-3.8554,-32.4233,A famous island in Brazil.,Brazil,2025-02-26T20:52:14.225218
+BRA009,Brasilia Cathedral,3.6,Historical Landmark,-15.7983,-47.875,A famous historical landmark in Brazil.,Brazil,2025-02-26T20:52:14.225221
+BRA010,MaracanÃ£ Stadium,4.6,Sports Venue,-22.9122,-43.2302,A famous sports venue in Brazil.,Brazil,2025-02-26T20:52:14.225224
+IND001,Taj Mahal,4.1,Historical Landmark,27.1751,78.0421,A famous historical landmark in India.,India,2025-02-26T20:52:14.225228
+IND002,Gateway of India,5,Historical Landmark,18.922,72.8347,A famous historical landmark in India.,India,2025-02-26T20:52:14.225231
+IND003,Jaipur City Palace,4.1,Historical Landmark,26.9256,75.8237,A famous historical landmark in India.,India,2025-02-26T20:52:14.225234
+IND004,Varanasi Ghats,4.4,Religious Landmark,25.3087,83.0095,A famous religious landmark in India.,India,2025-02-26T20:52:14.225238
+IND005,Goa Beaches,4.3,Beach,15.2993,74.124,A famous beach in India.,India,2025-02-26T20:52:14.225241
+IND006,Himalayas,4.8,Mountain,27.9879,86.925,A famous mountain in India.,India,2025-02-26T20:52:14.225244
+IND007,Mysore Palace,5,Historical Landmark,12.3052,76.6552,A famous historical landmark in India.,India,2025-02-26T20:52:14.225247
+IND008,Sundarbans,3.7,Wildlife Reserve,21.9497,89.1833,A famous wildlife reserve in India.,India,2025-02-26T20:52:14.225250
+IND009,Ajanta & Ellora Caves,3.7,Historical Landmark,20.5525,75.7032,A famous historical landmark in India.,India,2025-02-26T20:52:14.225253
+IND010,Golden Temple,4.5,Religious Landmark,31.62,74.8765,A famous religious landmark in India.,India,2025-02-26T20:52:14.225256
