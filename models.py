@@ -21,29 +21,24 @@ class UserProfile(db.Model):
     user_id = db.Column(db.String(36), db.ForeignKey('users.user_id', ondelete='CASCADE'), nullable=False, unique=True)
     age = db.Column(db.Integer, nullable=False)  # Removed check_constraint
     gender = db.Column(Enum('Male', 'Female', 'Other'), nullable=False)
-    preferences = db.Column(db.Text, nullable=True)
     created_at = db.Column(db.TIMESTAMP, server_default=db.func.current_timestamp())
 
     user = db.relationship('User', backref=db.backref('profile', uselist=False, cascade="all, delete"))
 
-# Search History Model
-class SearchHistory(db.Model):
-    __tablename__ = 'search_history'
-    search_id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
-    user_id = db.Column(db.String(36), db.ForeignKey('users.user_id', ondelete='CASCADE'), nullable=False)
-    search_query = db.Column(db.Text, nullable=False)
-    search_date = db.Column(db.TIMESTAMP, server_default=db.func.current_timestamp())
+class Place(db.Model):
+    place_id = db.Column(db.String(36), primary_key=True, unique=True, nullable=False, default=str(uuid.uuid4()))
+    user_id = db.Column(db.String(36), db.ForeignKey('users.user_id'), nullable=False)
+    place_name = db.Column(db.String(255), nullable=False)
+    region = db.Column(db.String(255), nullable=False)
+    cost = db.Column(db.Float, nullable=False)
+    latitude = db.Column(db.Float, nullable=False)
+    longitude = db.Column(db.Float, nullable=False)
 
-    user = db.relationship('User', backref=db.backref('search_history', cascade="all, delete"))
-
-# AI Recommendation Model
-class AIRecommendation(db.Model):
-    __tablename__ = 'ai_recommendations'
-    recommendation_id = db.Column(db.String(36), primary_key=True, default=lambda: str(uuid.uuid4()))
-    user_id = db.Column(db.String(36), db.ForeignKey('users.user_id', ondelete='CASCADE'), nullable=False)
-    recommendation_type = db.Column(Enum('Place', 'Itinerary'), nullable=False)
-    recommendation_data = db.Column(db.JSON, nullable=False)
-    confidence_score = db.Column(db.Float, nullable=False)  # Removed check_constraint
-    generated_at = db.Column(db.TIMESTAMP, server_default=db.func.current_timestamp())
-
-    user = db.relationship('User', backref=db.backref('recommendations', cascade="all, delete"))
+class BookingDetails(db.Model):
+    booking_id = db.Column(db.String(36), primary_key=True, unique=True, nullable=False, default=str(uuid.uuid4()))
+    user_id = db.Column(db.String(36), db.ForeignKey('users.user_id'), nullable=False)
+    place_id = db.Column(db.String(36), db.ForeignKey('place.place_id'), nullable=False)
+    check_in = db.Column(db.String(255), nullable=False)
+    number_persons = db.Column(db.Integer, nullable=False)
+    total_cost = db.Column(db.String(255), nullable=False)
+    
