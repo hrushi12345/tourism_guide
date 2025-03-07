@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Booking Details</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-cover bg-center h-screen flex justify-center items-center" style="background-image: url('/static/background_image.jpg');">
@@ -22,38 +22,36 @@
             {% endif %}
         </div>
     </nav>
-
-    <!-- Login Form Container -->
-    <div class="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg w-96 text-center">
-        <h2 class="text-2xl font-bold mb-4">User Login</h2>
-
+    
+    <div class="bg-white bg-opacity-90 p-6 rounded-lg shadow-lg w-96 text-center">
+        <h2 class="text-2xl font-bold mb-4">Booking Details</h2>
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
-                    <div class="p-3 mb-3 text-white rounded-md {{ 'bg-green-500' if category == 'success' else 'bg-red-500' }}">
-                        {{ message }}
-                    </div>
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
                 {% endfor %}
             {% endif %}
         {% endwith %}
-
-        <form action="{{ url_for('login') }}" method="POST">
-            <div class="mb-4 text-left">
-                <label class="block font-semibold">Email:</label>
-                <input type="email" name="email" required class="w-full p-2 border rounded">
+        
+        {% if name %}
+            <div class="text-left">
+                <p><strong>User:</strong> {{ name }}</p>
+                <p><strong>Place:</strong> {{ place_name }}</p>
+                <p><strong>Check-in:</strong> {{ check_in }}</p>
+                <p><strong>Number of Persons:</strong> {{ number_persons }}</p>
+                <p><strong>Total Cost:</strong> {{ total_cost }}</p>
             </div>
+        {% else %}
+            <p class="text-red-500">No booking found.</p>
+        {% endif %}
 
-            <div class="mb-4 text-left">
-                <label class="block font-semibold">Password:</label>
-                <input type="password" name="password" required class="w-full p-2 border rounded">
-            </div>
-
-            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Login</button>
-        </form>
-
-        <p class="mt-4">
-            Don't have an account? <a href="{{ url_for('register') }}" class="text-blue-500 hover:underline">Register</a>
-        </p>
+        <div class="mt-4 flex justify-between">
+            <form action="{{ url_for('cancel_booking') }}" method="POST">
+                <button class="bg-red-500 text-white p-2 rounded hover:bg-red-600">Cancel Booking</button>
+            </form>
+            <a href="/index" class="bg-blue-500 text-white p-2 rounded hover:bg-blue-600">Search Places</a>
+        </div>
     </div>
+    
 </body>
 </html>
